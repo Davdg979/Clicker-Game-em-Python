@@ -443,7 +443,7 @@ def atualiza_interface():
 
 janela = Tk()
 janela.title("Clicker Game")
-janela.geometry("950x340")
+janela.geometry("1050x340")
 janela.resizable(width=False,height=False)
 
 label1 = ttk.Label(janela, text=f"Pontos: {score}", font=("Arial",20))
@@ -542,10 +542,10 @@ bt_upgrad28 = ttk.Button(janela, text="", command=comprar_upgrade28)
 bt_upgrad28.place(x=600, y=300)
 
 bt_upgrad29 = ttk.Button(janela, text="", command=comprar_upgrade29)
-bt_upgrad29.place(x=600, y=120)
+bt_upgrad29.place(x=800, y=120)
 
 bt_upgrad30 = ttk.Button(janela, text="", command=comprar_upgrade30)
-bt_upgrad30.place(x=600, y=150)
+bt_upgrad30.place(x=800, y=150)
 
 atualiza_interface()
 janela.mainloop()
